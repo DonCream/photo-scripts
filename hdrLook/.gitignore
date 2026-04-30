@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Large media files — keep scripts only, not test images
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+*.webp
+*.cr2
+*.cr3
+*.dng
+*.nef
+*.arw
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Database backups
+library_backup_*.db
+
+# API keys — never commit these
+.env
+*.env
+secrets.py
